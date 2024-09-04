@@ -1,0 +1,6 @@
+body{background-color: aliceblue;}
+h3{font-size: 25px; color: brown;text-align: center;}
+div.middle{background-color: lightpink;}
+div > form > span{color: blue;}
+p2{background-color: #FFFF00; width: 500px; padding: 1px;}
+#round {border-radius: 50px;}

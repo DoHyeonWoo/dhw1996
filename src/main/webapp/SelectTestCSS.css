@@ -1,0 +1,6 @@
+h3{font-size: 30px;color: peru;}
+h3:first-letter{color: darkred;}
+strong{background-color: yellow;}
+body.main{background-color: paleturquoise;}
+div.box{background-color: lightpink; color: brown;}
+li:hover{background-color: yellow;}

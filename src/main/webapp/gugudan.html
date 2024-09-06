@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Insert title here</title>
+</head>
+<body>
+		<script>	
+			function printGududan () {
+				for (let i = 1; i <= 9;i++) {
+				document.write("============="+i+"단=============<br>");
+				for (let j = 1; j <= 9;j++) {
+					document.write(""+i+"X"+j+" = "+(i * j)+"<br>");
+					}
+				}	
+			}	
+			function printStar () {
+					for(let i = 0 ; i < 5;i++) {
+						for(let j = 0 ; j <= i;j++) {
+							document.write('*');
+						}	
+						document.write('<br>');
+					}
+				}	
+		
+	while (true) {
+			let inputGugudan = prompt("구구단 출력을 원하시면 9를 입력하시고 별을보시려면 1을 입력해주세요.")	
+			inputGugudan = parseInt(inputGugudan);		
+			
+			if (inputGugudan == 9) {
+				printGududan();
+				break
+			} 
+			else if (inputGugudan == 1) {
+				printStar();
+				break
+			} 	
+			else if (isNaN(inputGugudan)) {
+				window.close();
+				break
+			}
+			else {
+				alert("잘못입력하였습니다 다시 시도해주세요");
+			}
+			
+		} 
+		</script>
+</body>
+</html>
